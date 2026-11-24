@@ -1,0 +1,18 @@
+[project]
+name = "comfyui-nopinnedmemory"
+version = "1.0.0"
+description = "Disables the ComfyUI 0.46 DynamicVRAM pinned host-memory cache at startup (equivalent to --disable-pinned-memory)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "The ComfyUI-NoPinnedMemory Authors" }]
+keywords = ["comfyui", "memory", "pinned-memory", "dynamicvram", "windows"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Plugins",
+]
+dependencies = []
+
+# This pack registers no nodes and is not intended for the ComfyUI Registry;
+# it only needs to be dropped into custom_nodes/.
